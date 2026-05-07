@@ -10,4 +10,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 4444
 
-CMD ["java", "-jar", "target/Banking-SpringBoot-App1-0.0.1-SNAPSHOT.jar"]
+CMD ["sh", "-c", "java -jar target/*.jar"]
